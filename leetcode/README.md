@@ -6,13 +6,6 @@
 - FORMATTING SOURCE: https://github.com/haoel/leetcode
 -->
 
-## Table of Content
-
-- [Problems and Solutions](#01)
-- [Algorithms](#02)
-- [Data Structures](#03)
-
-
 ## <span id="01"> Problems and Solutions </span>
 | # | Title | Solution | Difficulty | My Working Notes |
 |---| ----- | -------- | ---------- | ---------------- |
@@ -21,18 +14,5 @@
 |202| [Happy number](https://leetcode.com/problems/happy-number/) | [solution](https://github.com/lilyyanglt/leetcode/blob/master/solutions/python/202_happyNumber.py) | Easy | [notes](https://github.com/lilyyanglt/leetcode/blob/master/notes/202.md) |
 | 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [python solution]() | Easy | [notes]()
 
-## <span id="02"> Algorithms </span>
-This section documents the algorithms I learn from doing leetcode problems
-
-| algorithm | problem # where this algorithm is used |
-| --------- | -------------------------------------- |
-| [Floyd Cycle Detection](https://github.com/lilyyanglt/leetcode/blob/master/algorithm/floydCycleDetection.md) | [202](https://leetcode.com/problems/happy-number/) |
-
-## <span id="03"> Data Structures </span>
-This section documents the data structures I learn from doing leetcode problems
-
-| algorithm | problem # where this algorithm is used |
-| --------- | -------------------------------------- |
-| [hashset](linkToNotes) | 202 |
 
 
