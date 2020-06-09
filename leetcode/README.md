@@ -13,6 +13,6 @@
 |26| [remove duplicates from sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [python solution](https://github.com/lilyyanglt/leetcode/blob/master/solutions/python/26_removeDuplicatesFromSortedArray.py)| Easy | [notes](https://github.com/lilyyanglt/leetcode/blob/master/notes/26.md) |
 |202| [Happy number](https://leetcode.com/problems/happy-number/) | [solution](https://github.com/lilyyanglt/leetcode/blob/master/solutions/python/202_happyNumber.py) | Easy | [notes](https://github.com/lilyyanglt/leetcode/blob/master/notes/202.md) |
 | 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [python solution]() | Easy | [notes]()
-| 518 | [Coin Change 2](https://leetcode.com/problems/coin-change-2/) | [c++ solution]() | Medium | [notes TO BE COMPLETED]()
+| 518 | [Coin Change 2](https://leetcode.com/problems/coin-change-2/) | [c++ solution](https://github.com/lilyyanglt/algorithm_challenges/blob/master/leetcode/solutions/cpp/coinChange.cpp) | Medium | [notes](https://github.com/lilyyanglt/algorithm_challenges/blob/master/leetcode/notes/518.md)
 
 
