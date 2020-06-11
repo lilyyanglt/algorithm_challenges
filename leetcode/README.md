@@ -14,6 +14,6 @@
 |202| [Happy number](https://leetcode.com/problems/happy-number/) | [python](https://github.com/lilyyanglt/leetcode/blob/master/solutions/python/202_happyNumber.py) | Easy | [notes](https://github.com/lilyyanglt/leetcode/blob/master/notes/202.md) |
 | 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [python]() | Easy | [notes]()
 | 518 | [Coin Change 2](https://leetcode.com/problems/coin-change-2/) | [c++](https://github.com/lilyyanglt/algorithm_challenges/blob/master/leetcode/solutions/cpp/coinChange.cpp) | Medium | [notes](https://github.com/lilyyanglt/algorithm_challenges/blob/master/leetcode/notes/518.md) |
-
+| 540 | [Power of 2](https://leetcode.com/problems/power-of-two/) | [c++]() | Easy |[notes]() |
 
 
