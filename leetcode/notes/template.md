@@ -1,5 +1,4 @@
-# [name of problem]
-__LINK__ []()
+# [name of problem](link)
 
 **Goal:** 
 
@@ -17,6 +16,9 @@ Input:
 
 Output:
 
+## Test Scenario
+
+- Start planning the test cases - think about all the edge cases first and make sure your algorithm is designed in a way to handle all the edge cases
 
 ## Pseudocode
 
@@ -28,3 +30,5 @@ Output:
 
 
 ## Other submission learnings and Solution Review
+
+## Retro

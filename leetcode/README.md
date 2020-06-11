@@ -15,5 +15,6 @@
 | 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [python]() | Easy | [notes]()
 | 518 | [Coin Change 2](https://leetcode.com/problems/coin-change-2/) | [c++](https://github.com/lilyyanglt/algorithm_challenges/blob/master/leetcode/solutions/cpp/coinChange.cpp) | Medium | [notes](https://github.com/lilyyanglt/algorithm_challenges/blob/master/leetcode/notes/518.md) |
 | 540 | [Power of 2](https://leetcode.com/problems/power-of-two/) | [c++]() | Easy |[notes]() |
+| 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [c++]() | Easy | [notes]() |
 
 
