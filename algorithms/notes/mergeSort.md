@@ -17,6 +17,8 @@
 
 ## I NEED GIFS TO DEMONSTRATE MY LEARNING!
 
+## Complexity Analysis
+
 ## Implementation
 
 - please see [here](https://github.com/lilyyanglt/algorithm_challenges/blob/master/algorithms/implementation/python/mergeSort.py)
