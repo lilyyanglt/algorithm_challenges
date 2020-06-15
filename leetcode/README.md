@@ -16,5 +16,5 @@
 | 518 | [Coin Change 2](https://leetcode.com/problems/coin-change-2/) | [c++](https://github.com/lilyyanglt/algorithm_challenges/blob/master/leetcode/solutions/cpp/coinChange.cpp) | Medium | [notes](https://github.com/lilyyanglt/algorithm_challenges/blob/master/leetcode/notes/518.md) | <span style="color:green">Completed</span> |
 | 231 | [Power of 2](https://leetcode.com/problems/power-of-two/) | [c++]() | Easy |[notes](https://github.com/lilyyanglt/algorithm_challenges/blob/master/leetcode/notes/.md) | Review Required |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [c++](https://github.com/lilyyanglt/algorithm_challenges/blob/master/leetcode/solutions/cpp/35_searchInsertPosition.cpp) | Easy | [notes](https://github.com/lilyyanglt/algorithm_challenges/blob/master/leetcode/notes/35.md) | Review Required |
-
+| 136 | [Single Number](https://leetcode.com/problems/single-number/) | [c++](https://github.com/lilyyanglt/algorithm_challenges/blob/master/leetcode/solutions/cpp/136_singleNumber.cpp) | Easy | [notes](https://github.com/lilyyanglt/algorithm_challenges/blob/master/leetcode/notes/136.md) | Concepts Review Required and also add Python implementation |
 
