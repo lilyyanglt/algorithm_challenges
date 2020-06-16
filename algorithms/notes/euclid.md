@@ -35,6 +35,18 @@ int findGCD(int m, int n) {
   if (r == 0) return n;
   else return findGCD(n, r);
 }
+
+// alternatively to reduce having to replace m with n
+
+int findGCD1(int m, int n) {
+  m = m % n;
+  if (m == 0) return n;
+
+  n = n % m;
+  if (n == 0) return m;
+
+  return findGCD1(m, n);
+}
 ```
 
 ### Iteration
