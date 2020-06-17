@@ -24,12 +24,12 @@
 
 <br>
 
-## <span id="02"> Algorithms </span>
+## <span id="02"> [Algorithms](https://github.com/lilyyanglt/algorithm_challenges/tree/master/algorithms) </span>
 - This section documents the algorithms I learn from doing the different problems and also algorithms that I specifically take time to learn.
 
 <br>
 
-## <span id="03"> Data Structures </span>
+## <span id="03"> [Data Structures](https://github.com/lilyyanglt/algorithm_challenges/tree/master/data_structures) </span>
 - Contains data structures and the implementation of each data structure in java, cpp and python
 - This section documents the data structures I learn from doing the different problems
 
