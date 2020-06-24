@@ -23,10 +23,7 @@ Output:
 ## Pseudocode
 
 
-## Complexity Analysis
-
-
-## Outcome
+## Outcome and Complexity Analysis
 
 
 ## Other submission learnings and Solution Review
