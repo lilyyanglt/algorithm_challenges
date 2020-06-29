@@ -4,21 +4,34 @@
 # Date: June 3, 2020
 # Notes: (https://github.com/lilyyanglt/algorithm_challenges/leetcode/blob/master/notes/448.md
 
-# SOLUTION WAS NOT ACCEPTED ON LEETCODE - NEEDS IMPROVEMENT
+import unittest
 
 class Solution:
-    def findDisappearedNumbers(self, nums: List[int]) -> List[int]:
-        n = len(nums)
+    def findDisappearedNumbers(self, nums):
+        output = []
+
+        for value in nums:
+          value = abs(value)
+          nums[value-1] = abs(nums[value-1]) * -1
+
+        for i, value in enumerate(nums):
+          if value > 0:
+            output.append(i + 1)
         
-        return [x for x in range(1, n + 1) if x not in nums]
+        return output
 
-def main():
-  s = Solution()
 
-  nums = [4, 3, 2, 7, 8, 2, 3, 1]
+class TestFindDisappearedNumbers(unittest.TestCase):
+  
+  def setUp(self):
+    self.s = Solution()
 
-  # expected: [5, 6]
-  print(s.findDisappearedNumbers(nums))
+  def test_A(self):
+    nums = [4,3,2,7,8,2,3,1]
+    actual = self.s.findDisappearedNumbers(nums)
+    expected = [5,6]
+    self.assertEqual(actual, expected)
+
 
 if __name__ == "__main__":
-  main()
+  unittest.main();
