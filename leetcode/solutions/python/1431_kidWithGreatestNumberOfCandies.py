@@ -4,6 +4,8 @@
 # Date: May 25, 2020
 # Notes: https://github.com/lilyyanglt/leetcode/blob/master/notes/1431.md
 
+import unittest
+
 class Solution(object):
     def kidsWithCandies(self, candies, extraCandies):
         """
@@ -21,11 +23,18 @@ class Solution(object):
         return output
 
 
-def main():
-    solution = Solution()
+class TestKidsWithCandies(unittest.TestCase):
 
-    print(solution.kidsWithCandies([4, 2, 5, 6], 3))
+    def setUp(self):
+        self.s = Solution();
+
+    def test_A(self):
+        candies = [2,3,5,1,3]
+        extraCandies = 3
+        actual = self.s.kidsWithCandies(candies, extraCandies)
+        expected = [True, True, True, False, True]
+        self.assertEqual(actual, expected)
 
 
 if __name__ == "__main__":
-    main()
+    unittest.main();
