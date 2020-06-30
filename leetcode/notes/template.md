@@ -20,11 +20,19 @@ Output:
 
 - Start planning the test cases - think about all the edge cases first and make sure your algorithm is designed in a way to handle all the edge cases
 
-## Pseudocode
+## Code and Complexity Analysis
+
+**Approach 1**
+
+_pseudocode_
 
 
-## Outcome and Complexity Analysis
 
+_cpp code_
+
+
+
+_complexity analysis_
 
 ## Other submission learnings and Solution Review
 
