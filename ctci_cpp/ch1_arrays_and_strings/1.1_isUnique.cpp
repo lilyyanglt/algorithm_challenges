@@ -20,12 +20,28 @@
 
   - runtime: O(n)
 
+  If I can't sort the string (no modification to string) then
+  I will have to use 2 for loops - and compare the character with
+  every character in the string
+
+  - runtime: O(n^2)
+
 * Approach 2: Optimization
 
 ***************************************************/
 
 #include <iostream>
 #include <string>
+
+// using hashmap hint #44
+bool solve3(std::string str) {
+
+}
+
+// using bit vector hint #117
+bool solve4(std::string str) {
+
+}
 
 // for a sorted string
 bool solve(std::string str) {
@@ -40,7 +56,7 @@ bool solve(std::string str) {
   return true;
 }
 
-// for an unsorted string
+// for an unsorted string this is hint #132 
 bool solve2(std::string str) {
   sort(str.begin(), str.end());
   int n = str.size();
