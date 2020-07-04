@@ -11,26 +11,34 @@
 * Questions for Interviewer:
   1. Can the original string be modified?
   ie. Can I use built in sort function? - Yes
+  2. Need to confirm a few things about the input, is
+  permutation case senstive? e.g. is God permutation of dog?
+  3. Is "god     " different from dog
+  4. 
 
 * Approach 1: Sort the 2 strings and compare if they 
   are equal to each other
 
-  - Runtime: O(n log n) due to using sort function
+  - Runtime: O(n log n)
+  - this algorithm is not optimal in some senses 
 
-* Approach 2: Optimization - try to do O(n) time
+* Approach 2: Optimization - Count the # of times 
+  character appears. The definition of permutation is
+  that the 2 strings should have the same character 
+  count.
 
-  
+* Hint #: 1, 84, 122, 131
 
 ***************************************************/
 
 #include <iostream>
 #include <string>
 
-// Approach 1 -
+// Approach 1 - sort the strings
 bool checkPermutation(std::string a, std::string b) {
   
-  if (a.size() == 0 && b.size() == 0) return true;
-  if (a.size() != b.size()) return false;
+  if (a.length() == 0 && b.length() == 0) return true;
+  if (a.length() != b.length()) return false;
 
   sort(a.begin(), a.end());
   sort(b.begin(), b.end());
@@ -40,18 +48,21 @@ bool checkPermutation(std::string a, std::string b) {
 
 int main(void) {
   
-  // test case 1
+  
+  // APPROACH 1 TEST CASES
+  // test #1
 
   std::string test_a1 = "abcd";
   std::string test_b1 = "bcad";
   assert(checkPermutation(test_a1, test_b1) == true);
 
-  // test case 2 
+  // test #2 
 
   std::string test_a2 = "abc";
   std::string test_b2 = "abcd";
   assert(checkPermutation(test_a2, test_b2) == false);
 
+  // APPROACH 2 TEST CASES
 
   std::cout << "passed all test cases\n";
 
