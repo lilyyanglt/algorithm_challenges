@@ -24,6 +24,7 @@
 | [Depth First Search]() | tbd | tbd | tbd | tbd | 
 | Finding all permutation of a string | tbd | tbd | tbd | tbd
 | Find nth fibonacci number | [note]() | [cpp]() | tbd | recursion, iteration, memoization/dp |
+| Find perfect square of n | [notes]() | [cpp]() | tbd | recusion and guessing |
 
 ## Search and Sort based on types of data structures
 
