@@ -1,23 +1,23 @@
-# Algorithm Challenges
+# Algorithm Challenges (WORK IN PROGRESS)
 
 ## Goal
-- Practice solving problems through platforms like leetcode, codewars and hackerrank, and google. 
+- Practice solving problems through platforms like leetcode, codewars and hackerrank, and google kickstart challenges. 
 - Document my progress as I go and also learnings from other developers
-- This repo is not intended to compare and constract the pros and cons of each of these platforms, but my hope is to get exposure into these different sites to better improve my skills.
+- This repo is not intended to compare and constrast the pros and cons of each of these platforms, but my hope is to get exposure into these different sites to better improve my skills. 
 
 ## Table of Content
 
-- [Algorithm Challenges](#algorithm-challenges)
+- [Algorithm Challenges (WORK IN PROGRESS)](#algorithm-challenges-work-in-progress)
   - [Goal](#goal)
   - [Table of Content](#table-of-content)
-  - [<span id="01"> Problems and Solutions </span>](#problems-and-solutions)
-  - [<span id="02"> Algorithms </span>](#algorithms)
+  - [Problems and Solutions](#problems-and-solutions)
+  - [<span id="02"> Algorithms </span>](#-algorithms-)
   - [<span id="04">Unanswered questions</span>](#unanswered-questions)
   - [<span id="05">How to report implementation issues</span>](#how-to-report-implementation-issues)
 
 <br>
 
-## <span id="01"> Problems and Solutions </span>
+## Problems and Solutions
 
 - [leetcode](https://github.com/lilyyanglt/algorithm_challenges/tree/master/leetcode)
 - [hackerrank](https://github.com/lilyyanglt/algorithm_challenges/tree/master/hackerrank)
