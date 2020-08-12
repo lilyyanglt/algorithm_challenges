@@ -59,6 +59,22 @@ std::vector<int> getRow(int rowIndex) {
   return dp[rowIndex];
 }
 
+// optimized space complexity solution
+std::vector<int> getRow2(int rowIndex) {
+  std::vector<int> output(rowIndex+1, 0);
+  output[0] = 1;
+
+  for(int i = 1; i < rowIndex + 1; i++) {
+    for (int j = i; j >= 1; j--) {
+      output[j] += output[j-1];
+      printf("i is %d and j is %d\n", i, j);
+      printf("output[j] is %d\n", output[j]);
+    }
+  }
+
+  return output;
+}
+
 
 int main() {
 
@@ -86,9 +102,18 @@ int main() {
     std::cout << '\n' << std::endl;
   }
 
-  // test getRow - should print 1 3 3 1
+  // test getRow - should print 1 5 10 10 5 1
   std::cout << "testing getRow function: \n";
   std::vector<int> output = getRow(3);
+
+  for (int i = 0; i<output.size(); i++) {
+    std::cout << ' ' << output[i];
+  }
+  std::cout << std::endl;
+
+   // test getRow2 - should print 1 4,6, 4, 1
+  std::cout << "testing getRow 2 function: \n";
+  output = getRow2(5);
 
   for (int i = 0; i<output.size(); i++) {
     std::cout << ' ' << output[i];
