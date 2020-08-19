@@ -26,15 +26,17 @@ int fib_recursive(int n) {
 *  space complexity: O(1)
 -------------------------------------------------------------------------*/
 int fib_iterative(int value) {
-  int current, prev = 1, prev_prev = 0;
+  
+  if (value == 0) return value;
+  int a = 0, b = 1, current=0;
 
-  for (int i=1; i<value; i++) {
-    current = prev + prev_prev;
-    prev_prev = prev;
-    prev = current;
+  for (int i=2; i<value; i++) {
+    current = a + b;
+    a = b;
+    b = current;
   }
 
-  return current;
+  return a + b;
 }
 
 /* -------------------------------------------------------------------------
@@ -43,19 +45,23 @@ int fib_iterative(int value) {
 *  space complexity: O(n)
 -------------------------------------------------------------------------*/
 
+int fib_memo(int value, std::vector<int>& cache) {
+    if (value == 0 || value == 1) return value;
+    if (cache[value] == -1) {
+      cache[value] = fib_memo(value-1, cache) + fib_memo(value-2, cache);
+    }
+    
+    return cache[value];
+}
+
 int fib_memo(int value) {
-  std::vector<int> memo(value, -1);
+  std::vector<int> memo(value+1, -1);
 
-  if (value <=0) return 0;
-  else if (value == 1) return 1;
-  else if (memo[value] > 0) return memo[value];
-
-  memo[value] = fib_memo(value - 1) + fib_memo(value - 2);
-
-  return memo[value];
+  return fib_memo(value, memo);
 }
 
 
+// drives the program
 int main(int argc, char *argv[]) {
 
   int value;
