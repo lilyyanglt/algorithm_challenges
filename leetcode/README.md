@@ -47,3 +47,4 @@
 | 118/119 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [cpp](solutions/cpp/118_119_pascalsTriangle.cpp) | Easy | See solution | Solved with the help of hints and tips, need to try to optimize to use less memory| DP, Array |
 | 409 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | [python](solutions/python/409_longestPalindrome.py) | Easy | [notes](notes/409.md) | Solved but needs clean up | Hash Table, Greedy Algorithm |
 | 143 | [Reorder List](https://leetcode.com/problems/reorder-list/) | [cpp](../leetcode/solutions/cpp/143_reorderList.cpp) | Medium | See solution | Not optimal, need to optimize to O(n) runtime | LinkedList, recursion, merge |
+| 905 | [Sort Array by Parity](https://leetcode.com/problems/sort-array-by-parity/) |[python](../leetcode/solution/../solutions/python/905_sortArrayByParity.py) | Easy | See Solution | Need to use C++ to solve the same thing | Array | 
