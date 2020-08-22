@@ -1,10 +1,10 @@
 /* Link: https://leetcode.com/problems/maximum-depth-of-binary-tree/
    Problem #: 104
-   Author: Lily Yang
+   Author: Lily Yang (for only the iterative solution)
    Date: Aug 11, 2020
    Notes: (https://github.com/lilyyanglt/algorithm_challenges/leetcode/blob/master/notes/104.md)
 
-   Approach: Solved this using both recursion and iterative approach
+   Disclaimer: Recursive solutions are from Leetcode learnings
 
 */
 
@@ -32,18 +32,40 @@ void printUsingBFS(TreeNode *& root) {
 
 }
 
-int maxDepthRecursive(TreeNode *& root) {
+// this is the top-down approach to recursion 
+// using a parameter to help the node determine its value and then pass it down to children nodes
+
+void maxDepthRecursiveTopDown(TreeNode* root, int* answer, int depth = 1) {
+  if (!root) return;
+
+  // if left node and right nodes are empty
+  if(!root->left && !root->right) {
+    *answer = std::max(*answer, depth);
+  }
+
+  maxDepthRecursiveTopDown(root->left, answer, depth+1);
+  maxDepthRecursiveTopDown(root->right, answer, depth+1);
+
+}
+
+int maxDepthRecursiveTopDown(TreeNode* root) {
+  
+  int answer = 0;
+  maxDepthRecursiveTopDown(root, &answer);
+
+  return answer;
+}
+
+
+// this is a bottom-up approach of recursion
+int maxDepthRecursiveBottomUp(TreeNode * root) {
 
   if(root == nullptr) return 0;
 
-  int leftHeight = maxDepthRecursive(root->left);
-  int rightHeight = maxDepthRecursive(root->right);
+  int leftHeight = maxDepthRecursiveBottomUp(root->left);
+  int rightHeight = maxDepthRecursiveBottomUp(root->right);
 
-  if (leftHeight > rightHeight) {
-    return leftHeight + 1;
-  } else {
-    return rightHeight + 1;
-  }
+  return std::max(leftHeight, rightHeight) + 1;
 
 }
 
@@ -101,10 +123,13 @@ int main(void) {
   
 
   // test recursive - should print 3
-  assert(maxDepthRecursive(root) == 3);
+  assert(maxDepthRecursiveBottomUp(root) == 3);
 
-  // // test iterative - should print 3
-  assert(maxDepthIterative(root) == 3);
+  // test recursive top down
+  assert(maxDepthRecursiveTopDown(root) == 3);
+
+  // test iterative - should print 3
+  assert(maxDepthIterative(root) == 3); 
 
   std::cout << "passed all test cases\n" << std::endl;
 
