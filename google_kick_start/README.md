@@ -11,7 +11,7 @@
 
 ## [2020 Round B link](https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ffc8)
 
-1. Bike Tour
+1. [Bike Tour](roundB/biketour.py)
 2. Bus Routes
 3. Robot Path Decoding
 4. Wandering Robot
@@ -23,3 +23,12 @@
 2. Stable Wall
 3. Perfect Subarray
 4. Candies
+
+## [2020 Round D link]()
+
+TBD
+
+## [2020 Round  E link](https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff47)
+
+1. [Longest Arithmetic](../google_kick_start/roundE/longestArithmetic.py)
+   
