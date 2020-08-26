@@ -49,3 +49,4 @@
 | 143 | [Reorder List](https://leetcode.com/problems/reorder-list/) | [cpp](../leetcode/solutions/cpp/143_reorderList.cpp) | Medium | See solution | Not optimal, need to optimize to O(n) runtime | LinkedList, recursion, merge |
 | 905 | [Sort Array by Parity](https://leetcode.com/problems/sort-array-by-parity/) |[python](../leetcode/solution/../solutions/python/905_sortArrayByParity.py) | Easy | See Solution | Need to use C++ to solve the same thing | Array | 
 | 404 | [sum of left leaves](https://leetcode.com/problems/sum-of-left-leaves/) | [cpp](../leetcode/solutions/cpp/404_sumOfLeftLeaves.cpp) | Easy | See Solution | Need to write test for the solution | Binary Tree, Recursion |
+| 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [cpp](../leetcode/solutions/cpp/74_searchA2DMatrix.cpp) | Medium | See Solution | Complete | 2D Array, Binary Search | 
