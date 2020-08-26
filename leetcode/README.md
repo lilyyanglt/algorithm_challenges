@@ -48,3 +48,4 @@
 | 409 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | [python](solutions/python/409_longestPalindrome.py) | Easy | [notes](notes/409.md) | Solved but needs clean up | Hash Table, Greedy Algorithm |
 | 143 | [Reorder List](https://leetcode.com/problems/reorder-list/) | [cpp](../leetcode/solutions/cpp/143_reorderList.cpp) | Medium | See solution | Not optimal, need to optimize to O(n) runtime | LinkedList, recursion, merge |
 | 905 | [Sort Array by Parity](https://leetcode.com/problems/sort-array-by-parity/) |[python](../leetcode/solution/../solutions/python/905_sortArrayByParity.py) | Easy | See Solution | Need to use C++ to solve the same thing | Array | 
+| 404 | [sum of left leaves](https://leetcode.com/problems/sum-of-left-leaves/) | [cpp](../leetcode/solutions/cpp/404_sumOfLeftLeaves.cpp) | Easy | See Solution | Need to write test for the solution | Binary Tree, Recursion |
