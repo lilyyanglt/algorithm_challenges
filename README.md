@@ -7,11 +7,9 @@
 
 ## Table of Content
 
-  - [Goal](#goal)
   - [Problems and Solutions](#problems-and-solutions)
-  - [<span id="02"> Algorithms </span>](#-algorithms-)
-  - [<span id="04">Unanswered questions</span>](#unanswered-questions)
-  - [<span id="05">How to report implementation issues</span>](#how-to-report-implementation-issues)
+  - [Algorithms](#algorithms)
+  - [How to report implementation issues](#how-to-report-implementation-issues)
 
 ## Problems and Solutions
 
@@ -22,18 +20,9 @@
 - [CTCI in CPP](https://github.com/lilyyanglt/algorithm_challenges/tree/master/ctci_cpp)
 
 
-## <span id="02"> [Algorithms](https://github.com/lilyyanglt/algorithm_challenges/tree/master/algorithms) </span>
+## [Algorithms](https://github.com/lilyyanglt/algorithm_challenges/tree/master/algorithms)
 - This section documents the algorithms I learn from doing different problems.
 
-
-## <span id="04">Unanswered questions</span>
-- There will be times when I have questions but can't find the answer on the internet (which is rare), but I don't want to forget about the questions I have and hopefully they will be answered one day.
-
-| Problem | Question |
-| ------- | -------- |
-| Codewars - Sum of Digits question | How to determine what the recurrence relation is for this problem if I am solving it recursively? |
-
-
-## <span id="05">How to report implementation issues</span>
+## How to report implementation issues
 - If you spot any issues with the way I am implementing certain algorithms or data structures, or the information in terms of the complexity is incorrect, please open an issue and I will fix it. Thank you!
 
