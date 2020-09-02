@@ -15,7 +15,7 @@
 
 - [leetcode](https://github.com/lilyyanglt/algorithm_challenges/tree/master/leetcode)
 - [hackerrank](https://github.com/lilyyanglt/algorithm_challenges/tree/master/hackerrank)
-- [google kick start](../algorithm_challenges/google_kick_start/)
+- [google kick start](https://github.com/lilyyanglt/algorithm_challenges/tree/master/google_kick_start)
 - [codewars](../algorithm_challenges/codewars/)
 - [CTCI in CPP](https://github.com/lilyyanglt/algorithm_challenges/tree/master/ctci_cpp)
 
