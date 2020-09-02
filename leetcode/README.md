@@ -52,3 +52,4 @@
 | 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [cpp](../leetcode/solutions/cpp/74_searchA2DMatrix.cpp) | Medium | See Solution | Complete | 2D Array, Binary Search |
 | 20 | [Valid Parenthesis](https://leetcode.com/problems/valid-parentheses/) | [cpp](cpp/../solutions/cpp/20_validParentheses.cpp) | Easy | See Solution | Complete, but need to review again | Stack, String |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [cpp](solution/../solutions/cpp/242_validAnagram.cpp) | Easy | See Solution | Complete | String, Hashtables |
+| 66 | [Plus One](https://leetcode.com/problems/plus-one/) | [cpp](../leetcode/solutions/cpp/66_plusOne.cpp) | Easy | See Solution | Completed | Array |
