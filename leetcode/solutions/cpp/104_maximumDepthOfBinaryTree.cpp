@@ -57,9 +57,26 @@ int maxDepthRecursiveTopDown(TreeNode* root) {
 }
 
 
-// this is a bottom-up approach of recursion
+/* this is a bottom-up approach of recursion
+   where I don't provide details of the node as the function
+   definition, but go all the way down to the last child 
+   before I backtrack and do calculation with the information
+
+   Approach:
+   Assuming that empty tree has a max depth of 0
+   Compare the depth of left subtree and right subtree
+   Which ever one is higher, add 1 to it because of parent is considered
+   depth of 1
+   This approach is also considered a kind of postorder traversal
+   we go through left and right 
+
+   Time Complexity: O(n) - n is the total number of nodes - generally, for a graph, the time complexity for dfs, is O(n + m) with m being the total number of edges, but because for binary trees, the total edges at worst case is n - 1, so you get O(n + n - 1), so that's why it's O(n)
+   Space Complexity: O(n) - callstack will grow as tall as the height of the binary search tree and the worst case if it's unbalanced and it's like a linked list.
+*/
 int maxDepthRecursiveBottomUp(TreeNode * root) {
 
+  // assuming empty tree has max depth of zero
+  // if assuming 1 node has max depth of 0, then empty tree have -1 depth
   if(root == nullptr) return 0;
 
   int leftHeight = maxDepthRecursiveBottomUp(root->left);
