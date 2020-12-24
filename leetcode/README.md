@@ -53,3 +53,4 @@
 | 20 | [Valid Parenthesis](https://leetcode.com/problems/valid-parentheses/) | [cpp](cpp/../solutions/cpp/20_validParentheses.cpp) | Easy | See Solution | Complete, but need to review again | Stack, String |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [cpp](solution/../solutions/cpp/242_validAnagram.cpp) | Easy | See Solution | Complete | String, Hashtables |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | [cpp](../leetcode/solutions/cpp/66_plusOne.cpp) | Easy | See Solution | Completed | Array |
+| 227 | [Basic Calculate II](https://leetcode.com/problems/basic-calculator-ii/) | [cpp](../leetcode/solutions/cpp/227_basicCalculatorII.cpp) | Medium | See Solution | Need to review | Array | 

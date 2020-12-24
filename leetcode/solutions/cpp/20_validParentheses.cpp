@@ -70,14 +70,15 @@ bool isValidImproved(std::string s) {
             if(s[i] == '(' || s[i] == '{' || s[i] == '[' ) {
                 st.push(s[i]);
             } else {
+
               if(st.empty()) {
                   return false;
               } else {
                     if(m[st.top()] == s[i]) {
                         st.pop();
-                } else {
-                    return false;
-                } 
+                    } else {
+                        return false;
+                    } 
               }
             
             }

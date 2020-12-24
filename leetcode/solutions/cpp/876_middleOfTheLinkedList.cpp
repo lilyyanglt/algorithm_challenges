@@ -89,7 +89,7 @@ int main(void) {
 
   // create solution
 
-  Solution *s = new Solution();
+  Solution1 *s = new Solution1();
 
   // print out the middle pointer value
   // expect to print 3
