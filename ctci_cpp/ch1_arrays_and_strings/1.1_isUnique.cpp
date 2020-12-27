@@ -32,10 +32,28 @@
 
 #include <iostream>
 #include <string>
+#include <unordered_map>
 
 // using hashmap hint #44
-bool solve3(std::string str) {
+bool solve(std::string str) {
 
+  if (str.size() == 0) {
+    return true;
+  }
+
+  std::unordered_map<char, int> map;
+
+  for (auto c : str) {
+    map[c] = map[c] + 1;
+  }
+
+  for (auto row : map) {
+    if (row.second > 1) {
+      return false;
+    }
+  }
+
+  return true;
 }
 
 // using bit vector hint #117
@@ -45,14 +63,15 @@ bool solve4(std::string str) {
 
 // for a sorted string
 bool solve(std::string str) {
-  int n = str.size();
+     int n = str.size();
 
   if (n == 0) return false;
 
   for (int i=0; i<n-1; i++) {
-    if (str[i] == str[i+1]) return false;
+    if (str[i] == str[i+1]) {
+      return false;
+    }
   }
-
   return true;
 }
 
@@ -81,9 +100,9 @@ int main(void) {
   std::string test_str2 = "abcdd";
   assert(solve(test_str2) == false);
 
-  // when a string is empty == should return false
+  // // when a string is empty == should return false
   std::string test_str3 = "";
-  assert(solve(test_str3) == false);
+  assert(solve(test_str3) == true);
 
   // when a string just has 1 character = should return true
   std::string test_str4 = "a";
@@ -91,11 +110,11 @@ int main(void) {
 
   // when a string is unsorted = should return false
   std::string test_str5 = "zhinnp";
-  assert(solve2(test_str5) == false);
+  assert(solve(test_str5) == false);
 
   // when a string is unsorted = should return true
   std::string test_str6 = "zhnpq";
-  assert(solve2(test_str6) == true);
+  assert(solve(test_str6) == true);
 
   std::cout << "Passed all test cases\n";
 
