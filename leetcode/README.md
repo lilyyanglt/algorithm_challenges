@@ -54,3 +54,4 @@
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [cpp](solution/../solutions/cpp/242_validAnagram.cpp) | Easy | See Solution | Complete | String, Hashtables |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | [cpp](../leetcode/solutions/cpp/66_plusOne.cpp) | Easy | See Solution | Completed | Array |
 | 227 | [Basic Calculate II](https://leetcode.com/problems/basic-calculator-ii/) | [cpp](../leetcode/solutions/cpp/227_basicCalculatorII.cpp) | Medium | See Solution | Need to review | Array | 
+| 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | [cpp](../leetcode/solutions/cpp/617_mergeTwoBinaryTrees.cpp) | Easy | See Solution | Incomplete | Binary Tree |
